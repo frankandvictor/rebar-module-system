@@ -34,11 +34,13 @@ These fields have the same values from module to module, but each module can hav
 
 > Unique identifier for linking purposes, written lowercase with hyphens.
 
-In order to link directly to a particular module on a page, that module will need this field populated with an ID – for example, `contact-us`. Then, the hyperlink of `#contact-us` can be used.
+This is a text field for specifying the ID of the module, which is necessary in order to link to it directly.
 
 ### Spacing
 
 > Amount of additional top/bottom space outside/inside the module.
+
+This is a set of four dropdowns for selecting the spacing values.
 
 | Option | Height (rem) | Height (px) |
 |:--- |:--- |:--- |
@@ -56,6 +58,8 @@ In order to link directly to a particular module on a page, that module will nee
 
 > Size of the module relative to the site container.
 
+This is a dropdown field for selecting a width setting.
+
 | Option | Content Width |
 |:--- |:--- |
 | `Auto` | Same as site container |
@@ -70,13 +74,19 @@ In order to link directly to a particular module on a page, that module will nee
 
 > Color to display underneath the module's content.
 
+This is a category field that pulls from a category group called "Background Colors". The benefit of using a category field is that colors can be added and removed at any time, and every module will automatically have the latest set of options.
+
 ### Background Image
 
 > Image to display underneath the module's content.
 
+This is an asset field that allows the selection or upload of any image file.
+
 ### Background Position
 
 > Alignment of the module's background image (if present).
+
+This is a dropdown field for specifying how the background image should be cropped.
 
 | Option | CSS value |
 |:--- |:--- |
