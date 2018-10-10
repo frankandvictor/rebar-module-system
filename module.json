@@ -1,0 +1,413 @@
+{
+    "fields": {
+        "config": {
+            "type": "verbb\\supertable\\fields\\SuperTableField",
+            "name": "Config",
+            "handle": "config",
+            "instructions": "",
+            "required": "0",
+            "translationMethod": "site",
+            "translationKeyFormat": null,
+            "typesettings": {
+                "minRows": "",
+                "maxRows": "",
+                "localizeBlocks": false,
+                "staticField": "1",
+                "columns": null,
+                "fieldLayout": "row",
+                "selectionLabel": "",
+                "fields": [
+                    {
+                        "type": "craft\\fields\\PlainText",
+                        "name": "Module ID",
+                        "handle": "moduleId",
+                        "instructions": "Unique identifier for linking purposes, written lowercase with hyphens.",
+                        "required": null,
+                        "translationMethod": "none",
+                        "translationKeyFormat": null,
+                        "typesettings": {
+                            "placeholder": "about-us",
+                            "code": "",
+                            "multiline": "",
+                            "initialRows": "4",
+                            "charLimit": "",
+                            "columnType": "text"
+                        }
+                    },
+                    {
+                        "type": "craft\\fields\\Dropdown",
+                        "name": "Outer Top Spacing",
+                        "handle": "outerTopSpacing",
+                        "instructions": "Amount of additional top space outside the module.",
+                        "required": null,
+                        "translationMethod": "none",
+                        "translationKeyFormat": null,
+                        "typesettings": {
+                            "options": [
+                                {
+                                    "label": "0",
+                                    "value": "0",
+                                    "default": "1"
+                                },
+                                {
+                                    "label": "1",
+                                    "value": "1",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "2",
+                                    "value": "2",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "3",
+                                    "value": "3",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "4",
+                                    "value": "4",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "5",
+                                    "value": "5",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "6",
+                                    "value": "6",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "7",
+                                    "value": "7",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "8",
+                                    "value": "8",
+                                    "default": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "craft\\fields\\Dropdown",
+                        "name": "Outer Bottom Spacing",
+                        "handle": "outerBottomSpacing",
+                        "instructions": "Amount of additional bottom space outside the module.",
+                        "required": null,
+                        "translationMethod": "none",
+                        "translationKeyFormat": null,
+                        "typesettings": {
+                            "options": [
+                                {
+                                    "label": "0",
+                                    "value": "0",
+                                    "default": "1"
+                                },
+                                {
+                                    "label": "1",
+                                    "value": "1",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "2",
+                                    "value": "2",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "3",
+                                    "value": "3",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "4",
+                                    "value": "4",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "5",
+                                    "value": "5",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "6",
+                                    "value": "6",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "7",
+                                    "value": "7",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "8",
+                                    "value": "8",
+                                    "default": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "craft\\fields\\Dropdown",
+                        "name": "Inner Top Spacing",
+                        "handle": "innerTopSpacing",
+                        "instructions": "Amount of additional top space inside the module.",
+                        "required": null,
+                        "translationMethod": "none",
+                        "translationKeyFormat": null,
+                        "typesettings": {
+                            "options": [
+                                {
+                                    "label": "0",
+                                    "value": "0",
+                                    "default": "1"
+                                },
+                                {
+                                    "label": "1",
+                                    "value": "1",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "2",
+                                    "value": "2",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "3",
+                                    "value": "3",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "4",
+                                    "value": "4",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "5",
+                                    "value": "5",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "6",
+                                    "value": "6",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "7",
+                                    "value": "7",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "8",
+                                    "value": "8",
+                                    "default": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "craft\\fields\\Dropdown",
+                        "name": "Inner Bottom Spacing",
+                        "handle": "innerBottomSpacing",
+                        "instructions": "Amount of additional bottom space inside the module.",
+                        "required": null,
+                        "translationMethod": "none",
+                        "translationKeyFormat": null,
+                        "typesettings": {
+                            "options": [
+                                {
+                                    "label": "0",
+                                    "value": "0",
+                                    "default": "1"
+                                },
+                                {
+                                    "label": "1",
+                                    "value": "1",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "2",
+                                    "value": "2",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "3",
+                                    "value": "3",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "4",
+                                    "value": "4",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "5",
+                                    "value": "5",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "6",
+                                    "value": "6",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "7",
+                                    "value": "7",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "8",
+                                    "value": "8",
+                                    "default": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "craft\\fields\\Dropdown",
+                        "name": "Width",
+                        "handle": "width",
+                        "instructions": "Size of the module relative to the site container.",
+                        "required": null,
+                        "translationMethod": "none",
+                        "translationKeyFormat": null,
+                        "typesettings": {
+                            "options": [
+                                {
+                                    "label": "Auto",
+                                    "value": "auto",
+                                    "default": "1"
+                                },
+                                {
+                                    "label": "Auto Extended",
+                                    "value": "autoExtended",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "Slim",
+                                    "value": "slim",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "Slim Extended",
+                                    "value": "slimExtended",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "Wide",
+                                    "value": "wide",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "Wide Extended",
+                                    "value": "wideExtended",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "Full",
+                                    "value": "full",
+                                    "default": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "craft\\fields\\Categories",
+                        "name": "Background Color",
+                        "handle": "backgroundColor",
+                        "instructions": "Color to display underneath the module's content.",
+                        "required": null,
+                        "translationMethod": "site",
+                        "translationKeyFormat": null,
+                        "typesettings": {
+                            "branchLimit": "1",
+                            "viewMode": null,
+                            "limit": null,
+                            "selectionLabel": "Select color"
+                        }
+                    },
+                    {
+                        "type": "craft\\fields\\Assets",
+                        "name": "Background Image",
+                        "handle": "backgroundImage",
+                        "instructions": "Image to display underneath the module's content.",
+                        "required": null,
+                        "translationMethod": "site",
+                        "translationKeyFormat": null,
+                        "typesettings": {
+                            "useSingleFolder": "",
+                            "restrictFiles": "1",
+                            "allowedKinds": [
+                                "image"
+                            ],
+                            "viewMode": "large",
+                            "limit": "1",
+                            "selectionLabel": "Select image"
+                        }
+                    },
+                    {
+                        "type": "craft\\fields\\Dropdown",
+                        "name": "Background Position",
+                        "handle": "backgroundPosition",
+                        "instructions": "Alignment of the module's background image (if present).",
+                        "required": null,
+                        "translationMethod": "none",
+                        "translationKeyFormat": null,
+                        "typesettings": {
+                            "options": [
+                                {
+                                    "label": "Top Left",
+                                    "value": "top left",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "Top Center",
+                                    "value": "top center",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "Top Right",
+                                    "value": "top right",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "Center Left",
+                                    "value": "center left",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "Center Center",
+                                    "value": "center center",
+                                    "default": "1"
+                                },
+                                {
+                                    "label": "Center Right",
+                                    "value": "center right",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "Bottom Left",
+                                    "value": "bottom left",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "Bottom Center",
+                                    "value": "bottom center",
+                                    "default": ""
+                                },
+                                {
+                                    "label": "Bottom Right",
+                                    "value": "bottom right",
+                                    "default": ""
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
