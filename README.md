@@ -2,10 +2,6 @@
 
 This document describes a comprehensive system for content management with true modularity.
 
-
-* xxx
-* xxx
-
 ## Dependencies
 
 * **[Craft 3](https://github.com/craftcms/cms)** - Content management system that provides the Matrix field type – the base for modular content.
