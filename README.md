@@ -26,6 +26,8 @@ In an elaborate module, the interface can become quite complex – considering t
 
 ![](./screenshots/module-matrix-block.png)
 
+![](./screenshots/module-matrix-block-advanced-options.png)
+
 ## Module Config Options
 
 Every module comes with configuration options that dictate the style of the infrastructure that wraps its content. The purpose of this model is to shift as much responsibility as possible from the module to the module framework. A module should not be concerned with setting its own width, spacing, or background. These are matters that pertain to all modules, therefore they should be dealt with at a higher level. In this system, modules are focused entirely on their own content, indifferent about where or how they are displayed.
