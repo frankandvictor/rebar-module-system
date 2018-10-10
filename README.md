@@ -20,13 +20,15 @@ In the **Craft** back-end, a matrix field called **Modules** contains every **mo
 
 Often times, new modules need to be created. This is also easy with Blockonomicon. Once you create the module's fields and export for the first time, the bundle is automatically created with boilerplate code to accelerate development and ensure consistency.
 
-Now, each module block within the Modules field contains its own subfields. For example, an "Image" module might have an "Image" asset field and a "Caption" text field. In addition, each module also gets its own copy of the **Module Config**, which is the **Super Table** field that has options such as "Width" and "Background Color".
+Now, each module block within the Modules field contains its own subfields. For example, a "Text" module would simply have a rich text editor (_Fig. 1_). In addition, each module also gets its own copy of the **Module Config**, which is the **Super Table** field that has options such as "Width" and "Background Color".
 
-In an elaborate module, the interface can become quite complex – considering that the Module Config alone has about 10 subfields. **Encapsulator** improves the module interface by relegating the Module Config field to a disclosure at the bottom of the block. The disclosure gets the label "Advanced options" and is collapsed by default. This keeps the options accessible to those who need them, while streamlining the interface and safegaurding against unnecessary tampering.
+In an elaborate module, the interface can become quite complex – considering that the Module Config alone has about 10 subfields. **Encapsulator** improves the module interface by relegating the Module Config field to a disclosure at the bottom of the block (_Fig. 2_). The disclosure gets the label "Advanced options" and is collapsed by default. This keeps the options accessible to those who need them, while streamlining the interface and safegaurding against unnecessary tampering.
 
 ![](./screenshots/module-matrix-block.png)
+_Fig 1: A text module._
 
 ![](./screenshots/module-matrix-block-advanced-options.png)
+_Fig 2: A text module with the "Advanced options" panel expanded._
 
 ## Module Config Options
 
