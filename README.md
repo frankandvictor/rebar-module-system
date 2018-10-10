@@ -14,7 +14,7 @@
 * **Module CSS** - CSS file that styles the Module HTML.
 * **Module JS** - JS file that adds a front-end administrative interface to each module.
 
-## How It Works
+## Overview
 
 In the **Craft** back-end, a matrix field called **Modules** contains every **module** as a block. With **Blockonomicon**, it is easy to add and remove modules. Since each module is stored as a bundle, a module can be exported from one site and imported into another. The module's field configuration and source code will remain intact.
 
@@ -30,13 +30,13 @@ Every module comes with configuration options that dictate the style of the infr
 
 These fields have the same values from module to module, but each module can have its own defaults. For example, it is likely that a banner module will always be set to full-width, so new banner modules should should be full-width by default. If each module has sensible default values in place, content editors will not have to modify configuration fields often.
 
-#### Module ID
+### Module ID
 
-Unique identifier for linking purposes, written lowercase with hyphens.
+> Unique identifier for linking purposes, written lowercase with hyphens.
 
-#### Spacing
+### Spacing
 
-Amount of additional top/bottom space outside/inside the module.
+> Amount of additional top/bottom space outside/inside the module.
 
 | Value | Height (rem) | Height (px) |
 |:--- |:--- |:--- |
@@ -50,9 +50,9 @@ Amount of additional top/bottom space outside/inside the module.
 | `7` | 9rem | 144px |
 | `8` | 10.5rem | 168px |
 
-#### Width
+### Width
 
-Size of the module relative to the site container.
+> Size of the module relative to the site container.
 
 | Value | Content Width |
 |:--- |:--- |
@@ -64,14 +64,14 @@ Size of the module relative to the site container.
 | `Wide Extended` | Wider than site container with full-width background |
 | `Full` | Full-width |
 
-#### Background Color
+### Background Color
 
-Color to display underneath the module's content.
+> Color to display underneath the module's content.
 
-#### Background Image
+### Background Image
 
-Image to display underneath the module's content.
+> Image to display underneath the module's content.
 
-#### Background Position
+### Background Position
 
-Alignment of the module's background image (if present).
+> Alignment of the module's background image (if present).
