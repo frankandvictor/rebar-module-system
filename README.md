@@ -11,7 +11,7 @@ TODO: Intro paragraph
 
 ## Constituents
 
-* **Module Config** - Super Table field that gets copied to each module to provide the configuration options.
+* **Module Config** - JSON representation for a Super Table field that provides the configuration options.
 * **Module HTML** - HTML file that provides the infrastructure that wraps the content of each module.
 * **Module CSS** - CSS file that styles the Module HTML.
 * **Module JS** - JS file that adds a front-end administrative interface to each module.
