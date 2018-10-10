@@ -1,0 +1,71 @@
+{# =============================================================
+
+# Module Structure
+
+* Module                Acts as the container for the module
+* Module Outer Wrapper  Can provide additional vertical space around the module
+* Module Container      Controls the width of the module
+* Module Inner Wrapper  Can provide additional vertical space within the module
+* Module Background     Controls the background of the module
+* Module Overlay        Controls the overlay of the module
+* Module Content        Acts as the container for the custom HTML
+
+# Module Meta
+
+* Module Handle         [ kebab-case module name ]
+* Module ID             [ html id value ]
+* Block Type            [ matrix block type ]
+* Block ID              [ matrix block id ]
+
+# Module Config
+
+* Outer Top Spacing     [ 0-8 ]
+* Outer Bottom Spacing  [ 0-8 ]
+* Inner Top Spacing     [ 0-8 ]
+* Inner Bottom Spacing  [ 0-8 ]
+* Width                 [ auto | autoExtended | wide | wideExtended | slim | slimExtended | full ]
+* Background Color      [ category handle ]
+* Background Image      [ image url ]
+* Background Position   [ css background-position value ]
+* Background Overlay    [ css background value ]
+
+# Module Requirements
+
+* Must be self-contained. Never allow elements to break outside of Module Content.
+* Must be framework-compliant. Never write CSS for elements outside of Module Content.
+* Must be container-agnostic. Always favor element queries over media queries.
+* Must be consistently-spaced. Always provide equal padding on all sides of every module.
+
+============================================================= #}
+
+{% set config = {
+	moduleHandle: moduleHandle ?? block.type.name | kebab,
+	moduleId: moduleID ?? block.config.moduleId ?? "",
+	blockType: blockType ?? block.type.name,
+	blockId: blockID ?? block.id,
+	outerTopSpacing: outerTopSpacing ?? block.config.outerTopSpacing ?? "0",
+	outerBottomSpacing: outerBottomSpacing ?? block.config.outerBottomSpacing ?? "0",
+	innerTopSpacing: innerTopSpacing ?? block.config.innerTopSpacing ?? "0",
+	innerBottomSpacing: innerBottomSpacing ?? block.config.innerBottomSpacing ?? "0",
+	width: width ?? block.config.width ?? "auto",
+	backgroundColor: backgroundColor ?? block.config.backgroundColor[0].colorHandle ?? "none",
+	backgroundImage: backgroundImage ?? block.config.backgroundImage[0].url ?? "",
+	backgroundPosition: backgroundPosition ?? block.config.backgroundPosition ?? "center center",
+	backgroundOverlay: backgroundOverlay ?? "none"
+} %}
+
+<div class="module module--{{ config.moduleHandle }}" id="{{ config.moduleId }}">
+	<div class="module-meta" data-block-type="{{ config.blockType }}" data-block-id="{{ config.blockId }}"></div>
+	<div class="module-outer-wrapper" data-top="{{ config.outerTopSpacing }}" data-bottom="{{ config.outerBottomSpacing }}">
+		<div class="module-container" data-width="{{ config.width }}">
+			<div class="module-inner-wrapper" data-top="{{ config.innerTopSpacing }}" data-bottom="{{ config.innerBottomSpacing }}">
+				<div class="module-background" data-bg-color="{{ config.backgroundColor }}" style="background-image: url('{{ config.backgroundImage }}'); background-position: {{ config.backgroundPosition }}"></div>
+				<div class="module-overlay" style="background: {{ config.backgroundOverlay }}"></div>
+				<div class="module-content">
+					{% block content %}
+					{% endblock %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
