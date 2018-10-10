@@ -1,5 +1,7 @@
 # Module System
 
+TODO: Intro paragraph
+
 ## Dependencies
 
 * **[Craft 3](https://github.com/craftcms/cms)** - Content management system that provides the Matrix field type – the base for modular content creation.
@@ -48,6 +50,8 @@ This is a text field for specifying the ID of the module, which is necessary in 
 
 This is a set of four dropdowns for selecting the spacing values.
 
+TODO: Spacing diagram
+
 | Option | Height (rem) | Height (px) |
 |:--- |:--- |:--- |
 | `0` | 0rem | 0px |
@@ -65,6 +69,8 @@ This is a set of four dropdowns for selecting the spacing values.
 > Size of the module relative to the site container.
 
 This is a dropdown field for selecting a width setting.
+
+TODO: Width diagram
 
 | Option | Content Width |
 |:--- |:--- |
