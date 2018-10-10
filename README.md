@@ -1,17 +1,21 @@
-# Module System
+# Rebar Module System
 
-TODO: Intro paragraph
+This document describes a comprehensive system for content management with true modularity.
+
+
+* xxx
+* xxx
 
 ## Dependencies
 
-* **[Craft 3](https://github.com/craftcms/cms)** - Content management system that provides the Matrix field type – the base for modular content creation.
+* **[Craft 3](https://github.com/craftcms/cms)** - Content management system that provides the Matrix field type – the base for modular content.
 * **[Blockonomicon](https://github.com/charliedevelopment/craft3-blockonomicon/)** - Craft 3 plugin that can bundle a module as a self-contained package of HTML, CSS, JS, and JSON.
 * **[Super Table](https://github.com/verbb/super-table)** - Craft 3 plugin that adds a new field type for organizing multiple fields into one.
 * **[Encapsulator](https://github.com/charliedevelopment/encapsulator)** - Yii module for Craft 3 that encapsulates select matrix block fields into a disclosure element.
 
 ## Constituents
 
-* **Module Config** - JSON representation for a Super Table field that provides the configuration options.
+* **Module Config** - JSON representation of a Super Table field that provides the configuration options.
 * **Module HTML** - HTML file that provides the infrastructure that wraps the content of each module.
 * **Module CSS** - CSS file that styles the Module HTML.
 * **Module JS** - JS file that adds a front-end administrative interface to each module.
