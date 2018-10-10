@@ -2,15 +2,15 @@
 
 ## Dependencies
 
-* **[Craft 3](https://github.com/craftcms/cms)** - Content management system that offers the Matrix field type, which is the base for modular content creation.
+* **[Craft 3](https://github.com/craftcms/cms)** - Content management system that provides the Matrix field type – the base for modular content creation.
 * **[Blockonomicon](https://github.com/charliedevelopment/craft3-blockonomicon/)** - Craft 3 plugin that can bundle a module as a self-contained package of HTML, CSS, JS, and JSON.
-* **[Super Table](https://github.com/verbb/super-table)** - Craft 3 plugin that adds a powerful field type for organizing multiple fields into one.
+* **[Super Table](https://github.com/verbb/super-table)** - Craft 3 plugin that adds a new field type for organizing multiple fields into one.
 * **[Encapsulator](https://github.com/charliedevelopment/encapsulator)** - Yii module for Craft 3 that encapsulates select matrix block fields into a disclosure element.
 
 ## Constituents
 
 * **Module Config** - Super Table field that gets copied to each module to provide the configuration options.
-* **Module HTML** - Twig file that provides the infrastructure that wraps the content of each module.
+* **Module HTML** - HTML file that provides the infrastructure that wraps the content of each module.
 * **Module CSS** - CSS file that styles the Module HTML.
 * **Module JS** - JS file that adds a front-end administrative interface to each module.
 
@@ -24,9 +24,11 @@ Now, each module block within the Modules field contains its own subfields. For 
 
 In an elaborate module, the interface can become quite complex – considering that the Module Config alone has about 10 subfields. **Encapsulator** improves the module interface by relegating the Module Config field to a disclosure at the bottom of the block. The disclosure gets the label "Advanced options" and is collapsed by default. This keeps the options accessible to those who need them, while streamlining the interface and safegaurding against unnecessary tampering.
 
-### Module Config
+## Module Config Options
 
-These fields should all come with sensible default values according to the module they belong to. Most of the time they should not require change.
+Every module comes with configuration options that dictate the style of the infrastructure that wraps its content. The purpose of this model is to shift as much responsibility as possible from the module to the module framework. A module should not be concerned with setting its own width, spacing, or background. These are matters that pertain to all modules, therefore they should be dealt with at a higher level. In this system, modules are focused entirely on their own content, indifferent about where or how they are displayed.
+
+These fields have the same values from module to module, but each module can have its own defaults. For example, it is likely that a banner module will always be set to full-width, so new banner modules should should be full-width by default. If each module has sensible default values in place, content editors will not have to modify configuration fields often.
 
 #### Module ID
 
@@ -34,36 +36,33 @@ Unique identifier for linking purposes, written lowercase with hyphens.
 
 #### Spacing
 
-* **Outer Top Spacing** - Amount of additional top space outside the module.
-* **Outer Bottom Spacing** - Amount of additional bottom space outside the module.
-* **Inner Top Spacing** - Amount of additional top space inside the module.
-* **Inner Bottom Spacing** - Amount of additional bottom space inside the module.
+Amount of additional top/bottom space outside/inside the module.
 
 | Value | Height (rem) | Height (px) |
 |:--- |:--- |:--- |
-| 0 | 0rem | 0px |
-| 1 | 0.75rem | 12px |
-| 2 | 1.5rem | 24px |
-| 3 | 3rem | 48px |
-| 4 | 4.5rem| 72px |
-| 5 | 6rem | 96px |
-| 6 | 7.5rem | 120px |
-| 7 | 9rem | 144px |
-| 8 | 10.5rem | 168px |
+| `0` | 0rem | 0px |
+| `1` | 0.75rem | 12px |
+| `2` | 1.5rem | 24px |
+| `3` | 3rem | 48px |
+| `4` | 4.5rem| 72px |
+| `5` | 6rem | 96px |
+| `6` | 7.5rem | 120px |
+| `7` | 9rem | 144px |
+| `8` | 10.5rem | 168px |
 
 #### Width
 
 Size of the module relative to the site container.
 
-| Value | Content Width | Background Width |
-|:--- |:--- |:--- |
-| auto | Same as site container | Same as site container |
-| Auto Extended | Same as site container | Full-width |
-| Slim | Narrower than site container | Same as site container |
-| Slim Extended | Narrower than site container | Full-width |
-| Wide | Wider than site container | Same as site container |
-| Wide Extended | Wider than site container | Full-width |
-| Full | Full-width | Full-width |
+| Value | Content Width |
+|:--- |:--- |
+| `Auto` | Same as site container |
+| `Auto Extended` | Same as site container with full-width background |
+| `Slim` | Narrower than site container |
+| `Slim Extended` | Narrower than site container with full-width background |
+| `Wide` | Wider than site container |
+| `Wide Extended` | Wider than site container with full-width background |
+| `Full` | Full-width |
 
 #### Background Color
 
