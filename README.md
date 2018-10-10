@@ -34,11 +34,13 @@ These fields have the same values from module to module, but each module can hav
 
 > Unique identifier for linking purposes, written lowercase with hyphens.
 
+In order to link directly to a particular module on a page, that module will need this field populated with an ID – for example, `contact-us`. Then, the hyperlink of `#contact-us` can be used.
+
 ### Spacing
 
 > Amount of additional top/bottom space outside/inside the module.
 
-| Value | Height (rem) | Height (px) |
+| Option | Height (rem) | Height (px) |
 |:--- |:--- |:--- |
 | `0` | 0rem | 0px |
 | `1` | 0.75rem | 12px |
@@ -54,7 +56,7 @@ These fields have the same values from module to module, but each module can hav
 
 > Size of the module relative to the site container.
 
-| Value | Content Width |
+| Option | Content Width |
 |:--- |:--- |
 | `Auto` | Same as site container |
 | `Auto Extended` | Same as site container with full-width background |
@@ -75,3 +77,15 @@ These fields have the same values from module to module, but each module can hav
 ### Background Position
 
 > Alignment of the module's background image (if present).
+
+| Option | CSS value |
+|:--- |:--- |
+| `Top Left` | top left |
+| `Top Center` | top center |
+| `Top Right` | top right |
+| `Center Left` | center left |
+| `Center Center` | center center |
+| `Center Right` | center right |
+| `Bottom Left` | bottom left |
+| `Bottom Center` | bottom center |
+| `Bottom Right` | bottom right |
