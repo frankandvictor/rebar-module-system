@@ -2,8 +2,6 @@
 
 This document describes a comprehensive system for content management with true modularity.
 
----
-
 ## Dependencies
 
 * **[Craft 3](https://github.com/craftcms/cms)** - Content management system that provides the Matrix field type – the base for modular content.
@@ -12,16 +10,12 @@ This document describes a comprehensive system for content management with true 
 * **[Encapsulator](https://github.com/charliedevelopment/encapsulator)** - Yii module for Craft 3 that encapsulates select matrix block fields into a disclosure element.
 * **[Core CSS](https://github.com/alecrios/core-css)** - CSS reset and grid system.
 
----
-
 ## Constituents
 
 * **Module Config** - JSON representation of a Super Table field that provides the configuration options.
 * **Module HTML** - HTML file that provides the infrastructure that wraps the content of each module.
 * **Module CSS** - CSS file that styles the Module HTML.
 * **Module JS** - JS file that adds a front-end administrative interface to each module.
-
----
 
 ## Overview
 
@@ -33,16 +27,12 @@ Now, each module block within the Modules field contains its own subfields. For 
 
 In an elaborate module, the interface can become quite complex – considering that the Module Config alone has about 10 subfields. **Encapsulator** improves the module interface by relegating the Module Config field to a disclosure at the bottom of the block (_Fig. 2_). The disclosure gets the label "Advanced options" and is collapsed by default. This keeps the options accessible to those who need them, while streamlining the interface and safegaurding against unnecessary tampering.
 
-&nbsp;
-
 ![Module Matrix Block](./screenshots/module-matrix-block.png)
 _Fig 1: A text module._
-
 &nbsp;
 
 ![Module Matrix Block Advanced Options](./screenshots/module-matrix-block-advanced-options.png)
 _Fig 2: A text module with the "Advanced options" panel expanded._
-
 &nbsp;
 
 ## Module Config Options
@@ -51,15 +41,11 @@ Every module comes with configuration options that dictate the style of the infr
 
 These fields have the same values from module to module, but each module can have its own defaults. For example, it is likely that a banner module will always be set to full-width, so new banner modules should should be full-width by default. If each module has sensible default values in place, content editors will not have to modify configuration fields often.
 
-&nbsp;
-
 ### Module ID
 
 > Unique identifier for linking purposes, written lowercase with hyphens.
 
 This is a text field for specifying the ID of the module, which is necessary in order to link to it directly.
-
-&nbsp;
 
 ### Spacing
 
@@ -79,16 +65,12 @@ This is a set of four dropdowns for selecting the spacing values (_Fig. 3, Fig. 
 | `7` | 9rem | 144px |
 | `8` | 10.5rem | 168px |
 
-&nbsp;
-
 ![Module Outer Spacing Options](./screenshots/module-outer-spacing-options.png)
 _Fig. 3: Example outer spacing options._
-
 &nbsp;
 
 ![Module Inner Spacing Options](./screenshots/module-inner-spacing-options.png)
 _Fig. 4: Example inner spacing options._
-
 &nbsp;
 
 ### Width
@@ -107,12 +89,8 @@ This is a dropdown field for selecting a width setting (_Fig. 5_).
 | `Wide Extended` | Wider than site container with full-width background |
 | `Full` | Full-width |
 
-&nbsp;
-
 ![Module Width Options](./screenshots/module-width-options.png)
 _Fig. 5: Example width options._
-
-&nbsp;
 
 ### Background Color
 
@@ -120,15 +98,11 @@ _Fig. 5: Example width options._
 
 This is a category field that pulls from a category group called "Background Colors". The benefit of using a category field is that colors can be added and removed at any time, and every module will automatically have the latest set of options.
 
-&nbsp;
-
 ### Background Image
 
 > Image to display underneath the module's content.
 
 This is an asset field that allows the selection or upload of any image file.
-
-&nbsp;
 
 ### Background Position
 
