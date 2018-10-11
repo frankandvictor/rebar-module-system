@@ -27,10 +27,10 @@ Now, each module block within the Modules field contains its own subfields. For 
 
 In an elaborate module, the interface can become quite complex – considering that the Module Config alone has about 10 subfields. **Encapsulator** improves the module interface by relegating the Module Config field to a disclosure at the bottom of the block (_Fig. 2_). The disclosure gets the label "Advanced options" and is collapsed by default. This keeps the options accessible to those who need them, while streamlining the interface and safegaurding against unnecessary tampering.
 
-![](./screenshots/module-matrix-block.png)
+![Module Matrix Block](./screenshots/module-matrix-block.png)
 _Fig 1: A text module._
 
-![](./screenshots/module-matrix-block-advanced-options.png)
+![Module Matrix Block Advanced Options](./screenshots/module-matrix-block-advanced-options.png)
 _Fig 2: A text module with the "Advanced options" panel expanded._
 
 ## Module Config Options
@@ -51,14 +51,13 @@ This is a text field for specifying the ID of the module, which is necessary in 
 
 This is a set of four dropdowns for selecting the spacing values.
 
-
 ![Module Outer Spacing Options](./screenshots/module-outer-spacing-options.png)
 _Fig. 3: Example outer spacing options._
 
+&nbsp;
 
 ![Module Inner Spacing Options](./screenshots/module-inner-spacing-options.png)
-_Fig. 3: Example inner spacing options._
-
+_Fig. 4: Example inner spacing options._
 
 | Option | Height (rem) | Height (px) |
 |:--- |:--- |:--- |
@@ -71,7 +70,6 @@ _Fig. 3: Example inner spacing options._
 | `6` | 7.5rem | 120px |
 | `7` | 9rem | 144px |
 | `8` | 10.5rem | 168px |
-
 
 ### Width
 
@@ -90,7 +88,7 @@ This is a dropdown field for selecting a width setting (_Fig. 3_).
 | `Full` | Full-width |
 
 ![Module Width Options](./screenshots/module-width-options.png)
-_Fig. 3: Example width options._
+_Fig. 5: Example width options._
 
 ### Background Color
 
