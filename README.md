@@ -71,7 +71,7 @@ TODO: Spacing diagram
 
 This is a dropdown field for selecting a width setting.
 
-TODO: Width diagram
+![Module Width Diagram](./screenshots/module-width-diagram.png)
 
 | Option | Content Width |
 |:--- |:--- |
