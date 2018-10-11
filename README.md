@@ -2,7 +2,7 @@
 
 This document describes a comprehensive system for content management with true modularity.
 
-&nbsp;
+---
 
 ## Dependencies
 
@@ -12,7 +12,7 @@ This document describes a comprehensive system for content management with true 
 * **[Encapsulator](https://github.com/charliedevelopment/encapsulator)** - Yii module for Craft 3 that encapsulates select matrix block fields into a disclosure element.
 * **[Core CSS](https://github.com/alecrios/core-css)** - CSS reset and grid system.
 
-&nbsp;
+---
 
 ## Constituents
 
@@ -21,7 +21,7 @@ This document describes a comprehensive system for content management with true 
 * **Module CSS** - CSS file that styles the Module HTML.
 * **Module JS** - JS file that adds a front-end administrative interface to each module.
 
-&nbsp;
+---
 
 ## Overview
 
