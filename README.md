@@ -49,7 +49,7 @@ This is a text field for specifying the ID of the module, which is necessary in 
 
 > Amount of additional top/bottom space outside/inside the module.
 
-This is a set of four dropdowns for selecting the spacing values.
+This is a set of four dropdowns for selecting the spacing values (_Fig. 3, Fig. 4_).
 
 | Option | Height (rem) | Height (px) |
 |:--- |:--- |:--- |
@@ -79,7 +79,7 @@ _Fig. 4: Example inner spacing options._
 
 > Size of the module relative to the site container.
 
-This is a dropdown field for selecting a width setting (_Fig. 3_).
+This is a dropdown field for selecting a width setting (_Fig. 5_).
 
 | Option | Width |
 |:--- |:--- |
