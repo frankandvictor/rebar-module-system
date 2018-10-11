@@ -51,11 +51,14 @@ This is a text field for specifying the ID of the module, which is necessary in 
 
 This is a set of four dropdowns for selecting the spacing values.
 
+
 ![Module Outer Spacing Options](./screenshots/module-outer-spacing-options.png)
 _Fig. 3: Example outer spacing options._
 
+
 ![Module Inner Spacing Options](./screenshots/module-inner-spacing-options.png)
 _Fig. 3: Example inner spacing options._
+
 
 | Option | Height (rem) | Height (px) |
 |:--- |:--- |:--- |
@@ -68,6 +71,7 @@ _Fig. 3: Example inner spacing options._
 | `6` | 7.5rem | 120px |
 | `7` | 9rem | 144px |
 | `8` | 10.5rem | 168px |
+
 
 ### Width
 
