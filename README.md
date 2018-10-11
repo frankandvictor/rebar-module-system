@@ -51,6 +51,8 @@ This is a text field for specifying the ID of the module, which is necessary in 
 
 This is a set of four dropdowns for selecting the spacing values.
 
+&nbsp;
+
 ![Module Outer Spacing Options](./screenshots/module-outer-spacing-options.png)
 _Fig. 3: Example outer spacing options._
 
@@ -58,6 +60,8 @@ _Fig. 3: Example outer spacing options._
 
 ![Module Inner Spacing Options](./screenshots/module-inner-spacing-options.png)
 _Fig. 4: Example inner spacing options._
+
+&nbsp;
 
 | Option | Height (rem) | Height (px) |
 |:--- |:--- |:--- |
@@ -87,8 +91,12 @@ This is a dropdown field for selecting a width setting (_Fig. 3_).
 | `Wide Extended` | Wider than site container with full-width background |
 | `Full` | Full-width |
 
+&nbsp;
+
 ![Module Width Options](./screenshots/module-width-options.png)
 _Fig. 5: Example width options._
+
+&nbsp;
 
 ### Background Color
 
