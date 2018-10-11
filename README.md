@@ -69,11 +69,9 @@ TODO: Spacing diagram
 
 > Size of the module relative to the site container.
 
-This is a dropdown field for selecting a width setting.
+This is a dropdown field for selecting a width setting (_Fig. 3_).
 
-![Module Width Diagram](./screenshots/module-width-diagram.png)
-
-| Option | Content Width |
+| Option | Width |
 |:--- |:--- |
 | `Auto` | Same as site container |
 | `Auto Extended` | Same as site container with full-width background |
@@ -82,6 +80,9 @@ This is a dropdown field for selecting a width setting.
 | `Wide` | Wider than site container |
 | `Wide Extended` | Wider than site container with full-width background |
 | `Full` | Full-width |
+
+![Module Width Diagram](./screenshots/module-width-diagram.png)
+_Fig. 3: All 6 module width options._
 
 ### Background Color
 
