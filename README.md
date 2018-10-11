@@ -1,6 +1,6 @@
 # Rebar Module System
 
-This document describes a comprehensive system for content management with true modularity.
+Rebar is a comprehensive system for content management with true modularity. It provides the infrastructure for rapid content generation using prebuilt blocks that only require content and configuration. Many of the complexities that come with a highly flexible system such as this have been abstracted into a framework layer to simplify the experience for developers and content editors alike.
 
 ## Dependencies
 
@@ -21,9 +21,9 @@ This document describes a comprehensive system for content management with true 
 
 In the **Craft** back-end, a matrix field called **Modules** contains every **module** as a block. With **Blockonomicon**, it is easy to add and remove modules. Since each module is stored as a bundle, a module can be exported from one site and imported into another. The module's field configuration and source code will remain intact.
 
-Often times, new modules need to be created. This is also easy with Blockonomicon. Once you create the module's fields and export for the first time, the bundle is automatically created with boilerplate code to accelerate development and ensure consistency.
+Often times, new modules need to be created. This is also easy with Blockonomicon. Once you create the field for a module and export for the first time, a bundle is automatically created with boilerplate code to accelerate development and ensure consistency.
 
-Now, each module block within the Modules field contains its own subfields. For example, a "Text" module would simply have a rich text editor (_Fig. 1_). In addition, each module also gets its own copy of the **Module Config**, which is the **Super Table** field that has options such as "Width" and "Background Color".
+Now, each module block within the Modules field contains its own subfields. For example, a "Text" module would contain a rich text editor (_Fig. 1_). In addition, each module also gets its own copy of the **Module Config**, which is the **Super Table** field that provides options such as "Width" and "Background Color".
 
 In an elaborate module, the interface can become quite complex – considering that the Module Config alone has about 10 subfields. **Encapsulator** improves the module interface by relegating the Module Config field to a disclosure at the bottom of the block (_Fig. 2_). The disclosure gets the label "Advanced options" and is collapsed by default. This keeps the options accessible to those who need them, while streamlining the interface and safegaurding against unnecessary tampering.
 
