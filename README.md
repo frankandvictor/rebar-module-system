@@ -55,7 +55,7 @@ This is a text field for specifying the ID of the module, which is necessary in 
 
 > Amount of additional top/bottom space outside/inside the module.
 
-This is a set of four dropdowns for selecting the spacing values (_Fig. 3, Fig. 4_).
+This is a set of four dropdowns for selecting the spacing values.
 
 | Option | Height (rem) | Height (px) |
 |:--- |:--- |:--- |
@@ -69,15 +69,25 @@ This is a set of four dropdowns for selecting the spacing values (_Fig. 3, Fig. 
 | `7` | 9rem | 144px |
 | `8` | 10.5rem | 168px |
 
-&nbsp;
+#### Outer Top Spacing
 
-![Module Outer Spacing Options](./screenshots/module-outer-spacing-options.png)
-_Fig. 3: Example outer spacing options._
+![Module Outer Spacing Options](./screenshots/module-outer-top-spacing-options.png)
+_Fig. 3: Example outer top spacing options._
 
-&nbsp;
+#### Outer Bottom Spacing
 
-![Module Inner Spacing Options](./screenshots/module-inner-spacing-options.png)
-_Fig. 4: Example inner spacing options._
+![Module Inner Spacing Options](./screenshots/module-outer-bottom-spacing-options.png)
+_Fig. 4: Example outer bottom spacing options._
+
+#### Inner Top Spacing
+
+![Module Inner Spacing Options](./screenshots/module-inner-top-spacing-options.png)
+_Fig. 5: Example inner top spacing options._
+
+#### Inner Bottom Spacing
+
+![Module Inner Spacing Options](./screenshots/module-inner-bottom-spacing-options.png)
+_Fig. 6: Example inner bottom spacing options._
 
 &nbsp;
 
@@ -85,7 +95,7 @@ _Fig. 4: Example inner spacing options._
 
 > Size of the module relative to the site container.
 
-This is a dropdown field for selecting a width setting (_Fig. 5_).
+This is a dropdown field for selecting a width setting (_Fig. 7_).
 
 | Option | Width |
 |:--- |:--- |
@@ -100,7 +110,7 @@ This is a dropdown field for selecting a width setting (_Fig. 5_).
 &nbsp;
 
 ![Module Width Options](./screenshots/module-width-options.png)
-_Fig. 5: Example width options._
+_Fig. 7: Example width options._
 
 &nbsp;
 
