@@ -55,7 +55,7 @@ This is a text field for specifying the ID of the module, which is necessary in 
 
 > Amount of additional top/bottom space outside/inside the module.
 
-This is a set of four dropdowns for selecting the spacing values.
+This is a set of four dropdowns for selecting the spacing values (_Fig. 3–6_).
 
 | Option | Height (rem) | Height (px) |
 |:--- |:--- |:--- |
@@ -71,29 +71,29 @@ This is a set of four dropdowns for selecting the spacing values.
 
 #### Outer Top Spacing
 
-![Module Outer Spacing Options](./screenshots/module-outer-top-spacing-options.png)
-_Fig. 3: Example outer top spacing options._
+![Module Outer Top Spacing Options](./screenshots/module-outer-top-spacing-options.png)
+_Fig. 3: Spacing is applied above the content, outside bounds of the module._
 
 &nbsp;
 
 #### Outer Bottom Spacing
 
-![Module Inner Spacing Options](./screenshots/module-outer-bottom-spacing-options.png)
-_Fig. 4: Example outer bottom spacing options._
+![Module Outer Bottom Spacing Options](./screenshots/module-outer-bottom-spacing-options.png)
+_Fig. 4: Spacing is applied below the content, outside bounds of the module._
 
 &nbsp;
 
 #### Inner Top Spacing
 
-![Module Inner Spacing Options](./screenshots/module-inner-top-spacing-options.png)
-_Fig. 5: Example inner top spacing options._
+![Module Inner Top Spacing Options](./screenshots/module-inner-top-spacing-options.png)
+_Fig. 5: Spacing is applied above the content, within bounds of the module._
 
 &nbsp;
 
 #### Inner Bottom Spacing
 
-![Module Inner Spacing Options](./screenshots/module-inner-bottom-spacing-options.png)
-_Fig. 6: Example inner bottom spacing options._
+![Module Inner Bottom Spacing Options](./screenshots/module-inner-bottom-spacing-options.png)
+_Fig. 6: Spacing is applied below the content, within bounds of the module._
 
 &nbsp;
 
