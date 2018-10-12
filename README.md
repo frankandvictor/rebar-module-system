@@ -9,6 +9,7 @@ Rebar is a comprehensive system for content management with true modularity. It 
 * **[Super Table](https://github.com/verbb/super-table)** - Craft 3 plugin that adds a new field type for organizing multiple fields into one.
 * **[Encapsulator](https://github.com/charliedevelopment/encapsulator)** - Yii module for Craft 3 that encapsulates select matrix block fields into a disclosure element.
 * **[Core CSS](https://github.com/alecrios/core-css)** - CSS reset and grid system.
+* **[Element Queries](https://github.com/marcj/css-element-queries)** - Polyfill adding support for element-based media queries.
 
 ## Constituents
 
