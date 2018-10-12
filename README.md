@@ -72,28 +72,28 @@ This is a set of four dropdowns for selecting the spacing values (_Fig. 3–6_).
 #### Outer Top Spacing
 
 ![Module Outer Top Spacing Options](./screenshots/module-outer-top-spacing-options.png)
-_Fig. 3: Spacing is applied above the content, outside bounds of the module._
+_Fig. 3: Spacing is applied above the content, outside the bounds of the module._
 
 &nbsp;
 
 #### Outer Bottom Spacing
 
 ![Module Outer Bottom Spacing Options](./screenshots/module-outer-bottom-spacing-options.png)
-_Fig. 4: Spacing is applied below the content, outside bounds of the module._
+_Fig. 4: Spacing is applied below the content, outside the bounds of the module._
 
 &nbsp;
 
 #### Inner Top Spacing
 
 ![Module Inner Top Spacing Options](./screenshots/module-inner-top-spacing-options.png)
-_Fig. 5: Spacing is applied above the content, within bounds of the module._
+_Fig. 5: Spacing is applied above the content, within the bounds of the module._
 
 &nbsp;
 
 #### Inner Bottom Spacing
 
 ![Module Inner Bottom Spacing Options](./screenshots/module-inner-bottom-spacing-options.png)
-_Fig. 6: Spacing is applied below the content, within bounds of the module._
+_Fig. 6: Spacing is applied below the content, within the bounds of the module._
 
 &nbsp;
 
