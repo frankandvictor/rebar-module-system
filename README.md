@@ -74,15 +74,21 @@ This is a set of four dropdowns for selecting the spacing values.
 ![Module Outer Spacing Options](./screenshots/module-outer-top-spacing-options.png)
 _Fig. 3: Example outer top spacing options._
 
+&nbsp;
+
 #### Outer Bottom Spacing
 
 ![Module Inner Spacing Options](./screenshots/module-outer-bottom-spacing-options.png)
 _Fig. 4: Example outer bottom spacing options._
 
+&nbsp;
+
 #### Inner Top Spacing
 
 ![Module Inner Spacing Options](./screenshots/module-inner-top-spacing-options.png)
 _Fig. 5: Example inner top spacing options._
+
+&nbsp;
 
 #### Inner Bottom Spacing
 
