@@ -1,5 +1,7 @@
 # Rebar Module System
 
+&nbsp;
+
 ![Module Example](./screenshots/module-example.png)
 
 Rebar is a comprehensive system for content management with true modularity. It provides the infrastructure for rapid content generation using prebuilt blocks that only require content and configuration. Many of the complexities that come with a highly flexible system such as this have been abstracted into a framework layer to simplify the experience for developers and content editors alike.
