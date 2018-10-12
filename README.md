@@ -4,7 +4,9 @@ Rebar is a comprehensive system for content management with true modularity. It 
 
 &nbsp;
 
-![Module Example](./screenshots/module-example.png)
+![Module Example 1](./screenshots/module-example-1.png)
+
+![Module Example 2](./screenshots/module-example-2.png)
 
 ## Dependencies
 
