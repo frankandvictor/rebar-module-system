@@ -76,7 +76,6 @@
 .module-outer-wrapper[data-top="6"] {padding-top: 7.5rem}
 .module-outer-wrapper[data-top="7"] {padding-top: 9rem}
 .module-outer-wrapper[data-top="8"] {padding-top: 10.5rem}
-.module-outer-wrapper[data-top="9"] {padding-top: 12rem}
 
 .module-outer-wrapper[data-bottom="0"] {padding-bottom: 0rem}
 .module-outer-wrapper[data-bottom="1"] {padding-bottom: .75rem}
@@ -87,7 +86,6 @@
 .module-outer-wrapper[data-bottom="6"] {padding-bottom: 7.5rem}
 .module-outer-wrapper[data-bottom="7"] {padding-bottom: 9rem}
 .module-outer-wrapper[data-bottom="8"] {padding-bottom: 10.5rem}
-.module-outer-wrapper[data-bottom="9"] {padding-bottom: 12rem}
 
 /* Module Inner Wrapper
 ============================================================= */
@@ -101,7 +99,6 @@
 .module-inner-wrapper[data-top="6"] {padding-top: 7.5rem}
 .module-inner-wrapper[data-top="7"] {padding-top: 9rem}
 .module-inner-wrapper[data-top="8"] {padding-top: 10.5rem}
-.module-inner-wrapper[data-top="9"] {padding-top: 12rem}
 
 .module-inner-wrapper[data-bottom="0"] {padding-bottom: 0rem}
 .module-inner-wrapper[data-bottom="1"] {padding-bottom: .75rem}
@@ -112,7 +109,6 @@
 .module-inner-wrapper[data-bottom="6"] {padding-bottom: 7.5rem}
 .module-inner-wrapper[data-bottom="7"] {padding-bottom: 9rem}
 .module-inner-wrapper[data-bottom="8"] {padding-bottom: 10.5rem}
-.module-inner-wrapper[data-bottom="9"] {padding-bottom: 12rem}
 
 /* Module Container
 ============================================================= */
