@@ -13,9 +13,11 @@ Rebar is a comprehensive system for content management with true modularity. It 
 * **[Craft 3](https://github.com/craftcms/cms)** - Content management system that provides the Matrix field type – the base for modular content.
 * **[Blockonomicon](https://github.com/charliedevelopment/craft3-blockonomicon/)** - Craft 3 plugin that can bundle a module as a self-contained package of HTML, CSS, JS, and JSON.
 * **[Super Table](https://github.com/verbb/super-table)** - Craft 3 plugin that adds a new field type for organizing multiple fields into one.
+* **Post Like It's 2018** - Yii module for Craft 3 which replaces the form posting functionality.
 * **[Encapsulator](https://github.com/charliedevelopment/encapsulator)** - Yii module for Craft 3 that encapsulates select matrix block fields into a disclosure element.
 * **[Element Queries](https://github.com/marcj/css-element-queries)** - Polyfill adding support for element-based media queries.
-* **[Core CSS](https://github.com/alecrios/core-css)** - CSS reset and grid system.
+* **[Core Reset](https://github.com/frankandvictor/core-reset)** - CSS reset.
+* **[Core Grid](https://github.com/frankandvictor/core-grid)** - CSS grid.
 
 ## Constituents
 
